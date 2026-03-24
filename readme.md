@@ -7,7 +7,7 @@
 将所有要翻译的.aoe2scenario文件放到input文件夹，在main.py中运行 
 put all raw .aoe2scenario files to 'input' folder, then run in main.py:
 
-···python
+```python
 asyncio.run(translate_scenario(src='en', dest='zh-cn', replace=False))
 ```
 
@@ -32,7 +32,7 @@ input文件夹中已经有F4_Sforza_2.aoe2scenario，可以先运行下试试/ t
 
 将campaign文件夹放入input文件夹，在main.py中运行 / put campaign folder inside 'input' folder, run in main.py
 
-···python
+```python
 asyncio.run(translate_other(campaign_name))
 ```
 
